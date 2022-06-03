@@ -31,4 +31,6 @@ greeter = "say hello"
 ## Appendix
 - [Var, Let, and Const – What's the Difference?](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/#:~:text=1%20var%20declarations%20are%20globally%20scoped%20or%20function,top%20of%20their%20scope.%20...%20More%20items...%20)
 - [Arrow Function](https://www.freecodecamp.org/news/arrow-function-javascript-tutorial-how-to-declare-a-js-function-with-the-new-es6-syntax/)
+- [JavaScript Classes](https://www.freecodecamp.org/news/javascript-classes-how-they-work-with-use-case/)
 - [Modern JavaScript](https://www.freecodecamp.org/news/learn-modern-javascript/)
+
