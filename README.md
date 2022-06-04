@@ -140,4 +140,4 @@ console.log(others);// { friends: ["Annie", "Becky"], job: "SE" }
 - [JavaScript Rest vs Spread Operator – What’s the Difference?](https://www.freecodecamp.org/news/javascript-rest-vs-spread-operators/)
 - [Modern JavaScript](https://www.freecodecamp.org/news/learn-modern-javascript/)
 - [Arguments in JavaScript – What Exactly Is an Argument?](https://codesweetly.com/javascript-arguments#what-is-an-arraylike-object)
-
+- [How to Use Object Destructuring in JavaScript](https://www.freecodecamp.org/news/array-and-object-destructuring-in-javascript/#:~:text=Destructuring%20is%20a%20JavaScript%20expression%20that%20makes%20it,arrays%20and%20objects%20and%20assign%20them%20to%20variables.)
