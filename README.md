@@ -27,6 +27,40 @@ greeter = "say hello"
 
 
 
+### Rest & Spread Operator
+
+#### Rest
+
+* Used to merge a list of function args into a array
+```
+myBio = (firstName, lastName, ...otherInfo) => otherInfo
+
+// Invoke myBio function while passing five arguments to its parameters:
+res = myBio("Oluwatobi", "Sofela", "CodeSweetly", "Web Developer", "Male");
+
+console.log(res) // ["CodeSweetly", "Web Developer", "Male"]
+```
+#### Spread
+
+* Used to split up array elements OR object properties
+````
+myDetails = (first, last, age, gender) => age;
+
+age = myDetails(...['AHMED', 'HASSAN', 22, 'MALE'])
+
+console.log(age); // 22
+````
+
+
+#### Rest & Spread
+````
+myDetails = (first, last, age, gender, ...aboutEducation) => aboutEducation;
+
+
+education = myDetails(...['AHMED', 'HASSAN', 22, 'MALE', 'Cairo university','FCAI','CS'])
+
+console.log(education); // ['Cairo university','FCAI','CS']
+````
 
 ## Appendix
 - [Var, Let, and Const – What's the Difference?](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/#:~:text=1%20var%20declarations%20are%20globally%20scoped%20or%20function,top%20of%20their%20scope.%20...%20More%20items...%20)
