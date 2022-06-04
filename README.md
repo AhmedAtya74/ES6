@@ -62,6 +62,69 @@ education = myDetails(...['AHMED', 'HASSAN', 22, 'MALE', 'Cairo university','FCA
 console.log(education); // ['Cairo university','FCAI','CS']
 ````
 
+
+### Destructing 
+
+````
+let introduction = ["Hello", "Ahmed"];
+let greeting = introduction[0]
+let name = introduction[1]
+
+console.log(greeting);//"Hello"
+console.log(name);//"Ahmed"
+
+        ||
+        ||
+        vv
+
+let introduction = ["Hello", "Ahmed"];
+let [greeting, name] = introduction;
+
+console.log(greeting);//"Hello"
+console.log(name);//"Ahmed"
+````
+
+#### Object Destructuring
+````
+let person = {Name: 'Ahmed', Age:22};
+
+let {Name, Age} = person;
+
+console.log(Name, Age); // Ahmed 22
+````
+
+#### Variables declared before being assigned
+````
+let person = {Name: 'Ahmed', Age:22};
+
+let Name, Age;
+
+{Name, Age} = person;
+
+console.log(Name, Age); // Error
+
+````
+##### Fixed by ()
+````
+let person = {Name: 'Ahmed', Age:22};
+
+let Name, Age;
+
+({Name, Age} = person); <== fixed
+
+console.log(Name, Age); // Ahmed 22
+
+````
+ #### Using Default Values
+ ````
+let person = {Age:22};
+
+let {Name="Ahmed", Age} = person;
+
+console.log(Name, Age); // Ahmed 22
+ ````
+
+
 ## Appendix
 - [Var, Let, and Const – What's the Difference?](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/#:~:text=1%20var%20declarations%20are%20globally%20scoped%20or%20function,top%20of%20their%20scope.%20...%20More%20items...%20)
 - [Arrow Function](https://www.freecodecamp.org/news/arrow-function-javascript-tutorial-how-to-declare-a-js-function-with-the-new-es6-syntax/)
