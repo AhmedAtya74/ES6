@@ -124,7 +124,15 @@ let {Name="Ahmed", Age} = person;
 console.log(Name, Age); // Ahmed 22
  ````
 
+#### Rest in Object Destructuring
+````
+let person = {name: "Ahmed", job:'SE', friends: ["Annie", "Becky"]};
 
+let {name, ...others} = person;
+
+console.log(name);//"Ahmed"
+console.log(others);// { friends: ["Annie", "Becky"], job: "SE" }
+````
 ## Appendix
 - [Var, Let, and Const – What's the Difference?](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/#:~:text=1%20var%20declarations%20are%20globally%20scoped%20or%20function,top%20of%20their%20scope.%20...%20More%20items...%20)
 - [Arrow Function](https://www.freecodecamp.org/news/arrow-function-javascript-tutorial-how-to-declare-a-js-function-with-the-new-es6-syntax/)
