@@ -68,4 +68,5 @@ console.log(education); // ['Cairo university','FCAI','CS']
 - [JavaScript Classes](https://www.freecodecamp.org/news/javascript-classes-how-they-work-with-use-case/)
 - [JavaScript Rest vs Spread Operator – What’s the Difference?](https://www.freecodecamp.org/news/javascript-rest-vs-spread-operators/)
 - [Modern JavaScript](https://www.freecodecamp.org/news/learn-modern-javascript/)
+- [Arguments in JavaScript – What Exactly Is an Argument?](https://codesweetly.com/javascript-arguments#what-is-an-arraylike-object)
 
