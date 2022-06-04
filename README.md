@@ -1,6 +1,23 @@
 # JavaScript
 
 
+## Table of Contents 
+[Hoisting of var](#header0)
+
+[Rest & Spread Operator](#header1)
+
+[Destructing](#header2)
+
+[Primitive vs Reference Data Types](#header3)
+
+[Appendix](#header4)
+
+
+## 02. Refreshing Next Generation JavaScript
+
+
+<a name="header0"/>
+
 ### Hoisting of var
 
 Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution.<br>
@@ -26,6 +43,7 @@ greeter = "say hello"
 * While var and let can be declared without being initialized, const must be initialized during declaration.
 
 
+<a name="header1"/>
 
 ### Rest & Spread Operator
 
@@ -62,6 +80,7 @@ education = myDetails(...['AHMED', 'HASSAN', 22, 'MALE', 'Cairo university','FCA
 console.log(education); // ['Cairo university','FCAI','CS']
 ````
 
+<a name="header2"/>
 
 ### Destructing 
 
@@ -134,6 +153,8 @@ console.log(name);//"Ahmed"
 console.log(others);// { friends: ["Annie", "Becky"], job: "SE" }
 ````
 
+<a name="header3"/>
+
 ### Primitive vs Reference Data Types
 
 #### Reference
@@ -169,7 +190,7 @@ console.log(anotherPerson); // Ahmed
 
 ````
 
-### Primitive
+#### Primitive
 * Values are stored in stack
 
 ![image](https://user-images.githubusercontent.com/64374947/171994818-7da0a003-59a8-4d49-9bd7-bf98f0685e0e.png)
@@ -180,6 +201,7 @@ numOne = 100;
 console.log(numTwo); //outputs 50
 ````
 
+<a name="header4"/>
 
 ## Appendix
 - [Var, Let, and Const – What's the Difference?](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/#:~:text=1%20var%20declarations%20are%20globally%20scoped%20or%20function,top%20of%20their%20scope.%20...%20More%20items...%20)
