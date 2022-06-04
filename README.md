@@ -2,15 +2,15 @@
 
 
 ## Table of Contents 
-[Hoisting of var](#header0)
+* [Hoisting of var](#header0)
 
-[Rest & Spread Operator](#header1)
+* [Rest & Spread Operator](#header1)
 
-[Destructing](#header2)
+* [Destructing](#header2)
 
-[Primitive vs Reference Data Types](#header3)
+* [Primitive vs Reference Data Types](#header3)
 
-[Appendix](#header4)
+* [Appendix](#header4)
 
 
 ## 02. Refreshing Next Generation JavaScript
